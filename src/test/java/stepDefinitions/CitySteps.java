@@ -7,24 +7,27 @@ public class CitySteps {
 
     CityPage cityPage;
 
+    public CitySteps() {
+        cityPage = new CityPage(CommonSteps.driver);
+    }
+
     @When("user searches for city {string}")
     public void searchCity(String cityName) {
-        cityPage = new CityPage(CommonSteps.driver);
         cityPage.searchCity(cityName);
     }
 
-    @When("user selects the city icon")
+    @And("user selects the city icon")
     public void selectCityIcon() {
         cityPage.selectCityIcon();
     }
 
     @Then("city should be selected successfully")
     public void verifyCitySelected() {
-        System.out.println("City selected successfully!");
+        cityPage.verifyCitySelected();
     }
 
     @Then("an error message should be displayed")
     public void verifyCityError() {
-        System.out.println("Invalid city error displayed!");
+        cityPage.verifyCityError();
     }
 }

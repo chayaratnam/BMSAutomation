@@ -7,29 +7,32 @@ public class GiftCardSteps {
 
     GiftCardPage giftCardPage;
 
+    public GiftCardSteps() {
+        giftCardPage = new GiftCardPage(CommonSteps.driver);
+    }
+
     @When("user opens Gift Card section")
     public void openGiftCardSection() {
-        giftCardPage = new GiftCardPage(CommonSteps.driver);
         giftCardPage.openGiftCardSection();
     }
 
-    @When("user clicks Check Gift Card Balance")
+    @And("user clicks Check Gift Card Balance")
     public void clickCheckBalance() {
         giftCardPage.clickCheckBalance();
     }
 
-    @When("user enters card number {string}")
+    @And("user enters card number {string}")
     public void enterCardNumber(String cardNumber) {
         giftCardPage.enterCardNumber(cardNumber);
     }
 
-    @When("user submits")
+    @And("user submits")
     public void submit() {
         giftCardPage.submit();
     }
 
     @Then("user should see an error message")
     public void verifyError() {
-        System.out.println("Invalid gift card error displayed!");
+        giftCardPage.verifyError();
     }
 }

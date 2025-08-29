@@ -6,7 +6,7 @@ import io.cucumber.java.en.*;
 
 public class CommonSteps {
 
-    public static WebDriver driver; // make driver static so other step classes can use it
+    public static WebDriver driver;
 
     @Given("user is on BookMyShow homepage")
     public void openHomePage() {

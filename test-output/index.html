@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\schay\AppData\Local\Temp\testng-eclipse--634544158\testng-customsuite.xml</span>
+                    <span>C:\Users\schay\AppData\Local\Temp\testng-eclipse-707345946\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Default_suite" class="navigator-link ">
-                    <span>1 group</span>
+                    <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 5 failed,   </span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,27 +103,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Search for an invalid/non-existing city&quot;, &quot;City Search Module&quot;)">runScenario("Search for an invalid/non-existing city", "City Search Module")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Check invalid gift card balance&quot;, &quot;Gift Card Module&quot;)">runScenario("Check invalid gift card balance", "Gift Card Module")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with invalid mobile number&quot;, &quot;Login Module&quot;)">runScenario("Login with invalid mobile number", "Login Module")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with valid mobile number&quot;, &quot;Login Module&quot;)">runScenario("Login with valid mobile number", "Login Module")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Search and select a valid city&quot;, &quot;City Search Module&quot;)">runScenario("Search and select a valid city", "City Search Module")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.bookmyshow.test.GiftCardTest" class="method navigator-link" hash-for-method="checkInvalidGiftCardBalance">checkInvalidGiftCardBalance</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -141,160 +121,23 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">runners.TestRunner</span>
+              <span class="class-name">com.bookmyshow.test.GiftCardTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Search for an invalid/non-existing city&quot;, &quot;City Search Module&quot;)">
-                  </a> <!-- runScenario("Search for an invalid/non-existing city", "City Search Module") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Search for an invalid/non-existing city","City Search Module")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3b55e1dda9bbba7727188543d47243e3, get {url=https://in.bookmyshow.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\schay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60464}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3b55e1dda9bbba7727188543d47243e3
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
-	at stepDefinitions.CommonSteps.openHomePage(CommonSteps.java:14)
-	at ✽.user is on BookMyShow homepage(file:///C:/Users/schay/eclipse-workspace/BMSAutomationFramework/src/test/resources/features/city.feature:10)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Check invalid gift card balance&quot;, &quot;Gift Card Module&quot;)">
-                  </a> <!-- runScenario("Check invalid gift card balance", "Gift Card Module") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Check invalid gift card balance","Gift Card Module")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3b55e1dda9bbba7727188543d47243e3, get {url=https://in.bookmyshow.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\schay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60464}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3b55e1dda9bbba7727188543d47243e3
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
-	at stepDefinitions.CommonSteps.openHomePage(CommonSteps.java:14)
-	at ✽.user is on BookMyShow homepage(file:///C:/Users/schay/eclipse-workspace/BMSAutomationFramework/src/test/resources/features/giftcard.feature:4)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Login with invalid mobile number&quot;, &quot;Login Module&quot;)">
-                  </a> <!-- runScenario("Login with invalid mobile number", "Login Module") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login with invalid mobile number","Login Module")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3b55e1dda9bbba7727188543d47243e3, get {url=https://in.bookmyshow.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\schay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60464}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3b55e1dda9bbba7727188543d47243e3
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
-	at stepDefinitions.CommonSteps.openHomePage(CommonSteps.java:14)
-	at ✽.user is on BookMyShow homepage(file:///C:/Users/schay/eclipse-workspace/BMSAutomationFramework/src/test/resources/features/login.feature:10)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Login with valid mobile number&quot;, &quot;Login Module&quot;)">
-                  </a> <!-- runScenario("Login with valid mobile number", "Login Module") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login with valid mobile number","Login Module")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id
-Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3b55e1dda9bbba7727188543d47243e3, get {url=https://in.bookmyshow.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\schay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60464}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3b55e1dda9bbba7727188543d47243e3
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
-	at stepDefinitions.CommonSteps.openHomePage(CommonSteps.java:14)
-	at ✽.user is on BookMyShow homepage(file:///C:/Users/schay/eclipse-workspace/BMSAutomationFramework/src/test/resources/features/login.feature:4)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Search and select a valid city&quot;, &quot;City Search Module&quot;)">
-                  </a> <!-- runScenario("Search and select a valid city", "City Search Module") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Search and select a valid city","City Search Module")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
-from disconnected: not connected to DevTools
+                  <a name="checkInvalidGiftCardBalance">
+                  </a> <!-- checkInvalidGiftCardBalance -->
+                  <span class="method-name">checkInvalidGiftCardBalance</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checkBalanceBtn&quot;}
   (Session info: chrome=139.0.7258.155)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3b55e1dda9bbba7727188543d47243e3, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\schay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60464}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3b55e1dda9bbba7727188543d47243e3
+Command: [d45dfd9270714f3726145c88d9a2d72c, findElement {value=checkBalanceBtn, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\schay\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61584}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61584/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d45dfd9270714f3726145c88d9a2d72c
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -307,16 +150,42 @@ Session ID: 3b55e1dda9bbba7727188543d47243e3
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1034)
-	at base.DriverSetup.getDriver(DriverSetup.java:28)
-	at stepDefinitions.CommonSteps.openHomePage(CommonSteps.java:13)
-	at ✽.user is on BookMyShow homepage(file:///C:/Users/schay/eclipse-workspace/BMSAutomationFramework/src/test/resources/features/city.feature:4)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at com.bookmyshow.page.GiftCardPage.clickCheckBalance(GiftCardPage.java:30)
+	at com.bookmyshow.test.GiftCardTest.checkInvalidGiftCardBalance(GiftCardTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 
 </div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -324,7 +193,7 @@ Session ID: 3b55e1dda9bbba7727188543d47243e3
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\schay\AppData\Local\Temp\testng-eclipse--634544158\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\schay\AppData\Local\Temp\testng-eclipse-707345946\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -333,7 +202,7 @@ Session ID: 3b55e1dda9bbba7727188543d47243e3
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;runners.TestRunner&quot;/&gt;
+      &lt;class name=&quot;com.bookmyshow.test.GiftCardTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -357,14 +226,6 @@ Session ID: 3b55e1dda9bbba7727188543d47243e3
             <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="test-group">
-              <span class="test-group-name">cucumber</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">runScenario</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Default_suite" class="panel">
@@ -381,32 +242,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'runScenario')
-data.setCell(0, 2, 'runners.TestRunner')
-data.setCell(0, 3, 167034);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'runScenario')
-data.setCell(1, 2, 'runners.TestRunner')
-data.setCell(1, 3, 2006);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'runScenario')
-data.setCell(2, 2, 'runners.TestRunner')
-data.setCell(2, 3, 1031);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'runScenario')
-data.setCell(3, 2, 'runners.TestRunner')
-data.setCell(3, 3, 797);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'runScenario')
-data.setCell(4, 2, 'runners.TestRunner')
-data.setCell(4, 3, 745);
+data.setCell(0, 1, 'checkInvalidGiftCardBalance')
+data.setCell(0, 2, 'com.bookmyshow.test.GiftCardTest')
+data.setCell(0, 3, 135);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 135 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -432,45 +277,17 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">runners.TestRunner</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.bookmyshow.test.GiftCardTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@644ded04)</span>
+                <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">runScenario("Search and select a valid city", "City Search Module")</span>
-                <span class="method-start">58335 ms</span>
+                <span class="method-name">checkInvalidGiftCardBalance</span>
+                <span class="method-start">50407 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Search for an invalid/non-existing city", "City Search Module")</span>
-                <span class="method-start">225487 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Check invalid gift card balance", "Gift Card Module")</span>
-                <span class="method-start">227864 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Login with valid mobile number", "Login Module")</span>
-                <span class="method-start">228681 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Login with invalid mobile number", "Login Module")</span>
-                <span class="method-start">229783 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDownClass</span>
-                <span class="method-start">230680 ms</span>
-              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
